@@ -12,13 +12,19 @@
  * TIP: In JavaScript, how can we decipher the length of a String?
  * work?
  */
-
+/**
+ * I: Take in String
+ * O: Return the length of String
+ * C: N/A
+ * E: N/A
+ */
 
 
 
 function length(string) {
     // YOUR CODE BELOW HERE //
-
+// return length of String
+return String.length
    
     
     // YOUR CODE ABOVE HERE //
@@ -27,19 +33,37 @@ function length(string) {
 /**
  * Given an input String, return a new String forced to lowercase.
  */
+/**
+ * I: Take in String
+ * O: Return a new String forced to lowercase
+ * C: 
+ * E: N/A
+ */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
-   
-
+    // create output String for lowercase letters
+    var newString = string.toLowerCase;
+    // return newString
+    return newString
     // YOUR CODE ABOVE HERE //
 }
 
 /**
  * Given an input String, return a new String forced to uppercase.
  */
+/**
+ * I: Take in a string
+ * O: Retrn a new String with input string forced to uppercase
+ * C: N/A
+ * E: N/A
+ */
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
-
+    // Declare output variable bigString 
+    var bigString;
+    // Use toUpperCase function to force string to uppercase and assign to bigString
+    bigString = string.toUpperCase;
+    return bigString
 
 
     // YOUR CODE ABOVE HERE //
