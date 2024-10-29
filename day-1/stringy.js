@@ -209,7 +209,7 @@ function sortDescending(stringOne, stringTwo) {
 
     // YOUR CODE ABOVE HERE //
 }
-
+something
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
